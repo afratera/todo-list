@@ -94,6 +94,7 @@ pub fn get_user_choice() -> UserChoices{
         "q" => UserChoices::Quit,
         "h" => UserChoices::Help,
         "lc" => UserChoices::ListCat,
+        "la" => UserChoices::ListAll,
         _ => UserChoices::Help,
     }
 }
